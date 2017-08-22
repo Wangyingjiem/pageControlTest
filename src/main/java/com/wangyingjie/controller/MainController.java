@@ -41,6 +41,11 @@ public class MainController {
         return pageInfo;
     }
 
+    @RequestMapping(value = "/gittest")
+    @ResponseBody
+    public String gittest(){
+        return "bbb";
+    }
 
 
 }
