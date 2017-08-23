@@ -58,6 +58,9 @@ public class MainController {
         return "branch";
     }
 
-    //aaa
+    public void test22(){
+        System.out.println("测试冲突");
+    }
+
 
 }
