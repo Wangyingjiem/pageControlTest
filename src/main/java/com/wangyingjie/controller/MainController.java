@@ -46,6 +46,21 @@ public class MainController {
     public String gittest(){
         return "bbb";
     }
+    
+    public void test(){
+        System.out.println("test");
+    }
+
+    //编辑代码
+    @RequestMapping(value = "/branch")
+    @ResponseBody
+    public String branchTest(){
+        return "branch";
+    }
+
+    public void test22(){
+        System.out.println("测试冲突");
+    }
 
 
 }
