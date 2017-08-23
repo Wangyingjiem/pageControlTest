@@ -4,7 +4,6 @@ import com.github.pagehelper.PageInfo;
 import com.wangyingjie.bean.Message;
 import com.wangyingjie.service.MessageService;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -57,5 +56,10 @@ public class MainController {
     public String branchTest(){
         return "branch";
     }
+
+    public void test22(){
+        System.out.println("测试冲突");
+    }
+
 
 }
